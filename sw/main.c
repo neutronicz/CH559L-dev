@@ -103,6 +103,7 @@ void main(void) {
     P4_DIR = 0b00010001;
 	P3 = 0x00;
      
+    
     usb_host_init();  // Initialize USB host
 
     while (1) {
