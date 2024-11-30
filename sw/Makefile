@@ -1,5 +1,4 @@
 CC=SDCC\BIN\sdcc
-PACK=packihx
 
 XRAMSIZE=0x1800
 XRAMLOC=0x0000
@@ -11,9 +10,7 @@ CFLAGS=-V -mmcs51 --model-large --xram-size $(XRAMSIZE) --xram-loc $(XRAMLOC) --
 SRCS=$(wildcard *.c)
 IHXS=$(SRCS:.c=.ihx)
 
-.PHONY: all clean
-
-all:$(IHXS) clean
+all:$(IHXS)
 
 %.ihx: %.c
 	$(CC) $(CFLAGS) $<
