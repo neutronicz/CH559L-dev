@@ -5,9 +5,9 @@
 
 
 
-This is hardware and software development board of the CH559L micro-controller with host usb
+This is development board of the CH559L micro-controller with host usb.
 
-To compile the All c files, run :
+To compile the All c files, run:
 
 sw/make
 
