@@ -19,6 +19,8 @@ To program the board press prog button before plug usb cable.
 
 
 Many Thanks to:
+
 https://github.com/ch32-rs/wchisp
+
 https://github.com/atc1441/CH559sdccUSBHost
 
