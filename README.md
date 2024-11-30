@@ -9,16 +9,6 @@ This is hardware and software development board of the CH559L micro-controller w
 
 To compile the All c files, run :
 
-make 
-
-compile.bat to compile scroll_leds.c 
-
-to flash the ch559 micro-controller:
-
-using wchisp utility.
-
-to compile run:
-
 sw/make
 
 or
