@@ -7,7 +7,7 @@
 
 typedef void(* __data FuncRef)();
 
-FuncRef runBootloader = (FunRef)0xF400;
+FuncRef runBootloader = (FuncRef)0xF400;
 
 void delay(unsigned int ms) {
     unsigned int i, j;
